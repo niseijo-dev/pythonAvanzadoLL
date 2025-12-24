@@ -48,4 +48,4 @@ print("## 5 * 3 es igual a:", producto(5,3))
 
 # Las funciones lambda pueden ser algo dificiles de leer, pero se recomienda su uso para enviarse como parametro en funciones como filter() o map()
 
-
+# range(inicio, fin, paso)
