@@ -29,7 +29,6 @@ cuadradosResultados = [calc_cuadrado(num) if es_par(num) else 0 for num in numer
 print("Cuadrados pares y ceros:", cuadradosResultados, end="\n\n")
 # De esta forma (poniendo antes el 'if-else') podemos poner un else y así agregar más condiciones
 
-
 """SETS Y DICCIONARIOS"""
 setPares = {num for num in numeros if num%2==0}
 print("Set de Pares:", setPares)
