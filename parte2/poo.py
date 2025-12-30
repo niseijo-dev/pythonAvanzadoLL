@@ -12,7 +12,7 @@ class Persona:
         self.edad = edad
         self.docIdentidad = None
 
-    def agregarDocumento(self, docIdentidad): # Esto es un método, en este caso un setter para docIdentidad
+    def agregar_documento(self, docIdentidad): # Esto es un método, en este caso un setter para docIdentidad
         self.docIdentidad = docIdentidad
         print(f"Documento: [{docIdentidad}] guardado exitosamente.")
 
@@ -20,7 +20,7 @@ class Persona:
         print("Haciendo algo...")
 
 juanPerez = Persona("Juan", "Perez", 33)
-juanPerez.agregarDocumento(30822335)
+juanPerez.agregar_documento(30822335)
 #print(juan.tipo)
 
 """HERENCIA"""
@@ -35,7 +35,7 @@ class Deportista(Persona): # De esta forma se le asigna 'Persona' como clase pad
         print(f"Practicando {self.deporte}...") # Posteriormente agrego las acciones que implementará adicionalmente la clase hija
 
 goat = Deportista("Lionel Andrés", "Messi Cuccittini", 38, "Fútbol") # Utilizo el constructor de clase Persona (herencia)
-goat.agregarDocumento(33016244) # También sus métodos
+goat.agregar_documento(33016244) # También sus métodos
 goat.accion()
 
 """HERENCIA MULTIPLE"""

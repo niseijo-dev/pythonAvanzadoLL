@@ -1,3 +1,11 @@
+# "*args" hace referencia a "non-keyword arguments" que son parámetros especiales usados para pasar parámetros opcionales en forma de tuplas cada posición
+#  en la lista de ese parámetro será usado en la función.
+
+# "**kwargs" significa "keyword arguments" son parámetros especiales usados para pasar parámetros opcionales en forma de diccionario.
+#  Y como se envían como diccionario cada parámetro tiene un nombre asignado que sería la "key" del diccionario y el valor asociado
+
+# El uso de " *args " se recomienda cuando no sabemos cuantos parámetros se nos pasará (y queremos recibirlos en forma de tuplas)
+
 """USO DE *args"""
 def calc_perimetro(*args):
     perim = 0
